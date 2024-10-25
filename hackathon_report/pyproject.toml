@@ -1,0 +1,20 @@
+[project]
+name = "hackathon_report"
+version = "0.1.0"
+description = "hackathon_report using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.76.2,<1.0.0"
+]
+
+[project.scripts]
+hackathon_report = "hackathon_report.main:run"
+run_crew = "hackathon_report.main:run"
+train = "hackathon_report.main:train"
+replay = "hackathon_report.main:replay"
+test = "hackathon_report.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
