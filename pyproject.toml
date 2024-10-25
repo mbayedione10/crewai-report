@@ -2,7 +2,7 @@
 name = "hackathon_report"
 version = "0.1.0"
 description = "hackathon_report using crewAI"
-authors = [{ name = "Your Name", email = "you@example.com" }]
+authors = [{ name = "Mamadou Mbaye DIONE", email = "nioulboy@gmail.com" }]
 requires-python = ">=3.10,<=3.13"
 dependencies = [
     "crewai[tools]>=0.76.2,<1.0.0"
